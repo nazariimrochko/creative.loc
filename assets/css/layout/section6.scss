@@ -1,0 +1,224 @@
+.section6 {
+   width: 100%;
+   height: 100%;
+   padding: 100px 0;
+}
+.block {
+   @include flex-space-between();
+   width: 100%;
+   margin-bottom: 100px;
+   flex-wrap: wrap;
+
+   .card-box {
+      @include flex-column();
+      flex-basis: calc(25% - 40px);
+      border: solid 1px #F1F1F1;
+      margin: 15px;
+      padding: 0;
+      height: 360px;
+      position: relative;
+      @include respond-to(xl){
+        padding-bottom: 30px;
+      }
+
+      &-img {
+         //card-box__img/
+         background-color: #000000;
+         margin-bottom: 30px;
+         @include respond-to(md){
+            width: 222px;
+         }
+      }
+      &-img__item{
+         //card-box-img__item/
+         @include respond-to(md){
+            width: 222px;
+         }
+      }
+
+      &:hover {
+         border: solid 1px #262626;
+
+         .card-box__title {
+            color: $red;
+         }
+
+         .card-box-img__item {
+            transition: .3s ease-in-out;
+            opacity: .2;
+         }
+         .hover-wrap {
+            display:flex;
+            @include flex-space-between;
+         }
+         .hex-svg{
+            fill: #FF0036;
+         }
+      }
+
+      @include respond-to(md) {
+         flex-basis: calc(50% - 30px);
+         margin: 15px;
+         max-width: 222px;
+      }
+      @include respond-to(xl) {
+         flex-basis: calc(50% - 30px);
+         margin: 20px 15px;
+         max-width: 222px;
+      }
+      @include respond-to(xs) {
+         flex-basis: calc(100% - 20px);
+         max-width: 222px;
+         margin: 20px 10px;
+      }
+      &__title {
+         //card-box__title/
+         margin-bottom: 25px;
+         font-size: 20px;
+         font-weight: bold;
+         color: #000000;
+         text-transform: uppercase;
+         @include respond-to(md) {
+            font-size: 18px;
+         }
+         @include respond-to(xl) {
+            font-size: 16px;
+         }
+      }
+
+      &__subtitle {
+         //card-box__subtitle/
+         font-size: 16px;
+         color: $silver;
+         @include respond-to(md) {
+            font-size: 14px;
+         }
+      }
+   }
+}
+.hover-wrap{
+   //hover-wrap/
+ display: none;
+   position: absolute;
+   top: 85px;
+}
+.hex-svg{
+   position: absolute;
+   top: 12px;
+   width: 22px;
+   height: 22px;
+}
+
+.line {
+   margin-bottom: 100px;
+   @include respond-to(xs) {
+      width: 300px;
+   }
+}
+
+.skills {
+   @include flex-space-between();
+   flex-wrap: wrap;
+   width: 100%;
+   margin-bottom: 100px;
+
+   &-card {
+      //skills-card/
+      @include flex-column();
+      flex-basis: calc(25% - 50px);
+      margin: 25px 25px;
+      text-align: center;
+      @include respond-to(md) {
+         flex-basis: calc(50% - 50px);
+         margin: 25px;
+      }
+      @include respond-to(xl) {
+         flex-basis: calc(50% - 30px);
+         margin: 20px 15px;
+      }
+      @include respond-to(xs) {
+         flex-basis: calc(100% - 20px);
+         margin: 20px 10px;
+      }
+   }
+
+   &-bg90 {
+      //skills-bg90/
+      @include flex-center();
+      @include linear-gradient();
+      background: linear-gradient(right, #FF0036 11%, #E0E0E0 10%);
+      @include respond-to(md) {
+         @include linear-gradient2();
+      }
+
+
+   }
+
+   &-bg80 {
+      //skills-bg80/
+      @include flex-center();
+      @include linear-gradient();
+      background: linear-gradient(right, #FF0036 21%, #E0E0E0 20%);
+      @include respond-to(md) {
+         @include linear-gradient2();
+      }
+
+   }
+
+   &-bg70 {
+      //skills-bg70/
+      @include flex-center();
+      @include linear-gradient();
+      background: linear-gradient(right, #FF0036 31%, #E0E0E0 30%);
+      @include respond-to(md) {
+         @include linear-gradient2();
+      }
+
+   }
+
+   &-circle {
+      //skills-circle/
+      @include flex-center();
+      background-color: #FFFFFF;
+      width: 165px;
+      height: 165px;
+      border-radius: 50%;
+      @include respond-to(md) {
+         width: 125px;
+         height: 125px;
+      }
+   }
+
+   &__numer {
+      //skills__numer/
+      font-size: 45px;
+      @include respond-to(md) {
+         font-size: 30px;
+      }
+   }
+
+   &__title {
+      //skills__title/
+      margin-bottom: 25px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #000000;
+      text-transform: uppercase;
+      @include respond-to(md) {
+         font-size: 18px;
+      }
+      @include respond-to(xl) {
+         font-size: 16px;
+      }
+   }
+
+   &__subtitle {
+      font-size: 18px;
+      font-weight: bold;
+      @include respond-to(md) {
+         font-size: 14px;
+      }
+   }
+}
+
+

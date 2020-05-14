@@ -1,0 +1,301 @@
+.section2 {
+   padding-top: 100px;
+   height: 100%;
+   @include respond-to(xl){
+      padding: 30px 0;
+   }
+
+   &-wrap {
+      //.section2-wrap/
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+   }
+
+   &-text {
+      //.section2-text/
+      display: block;
+      margin-bottom: 30px;
+      width: 100%;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 25px;
+      @include respond-to(md) {
+         font-size: 14px;
+         max-width: 400px;
+      }
+      @include respond-to(xl){
+         font-size: 14px;
+         max-width: 400px;
+      }
+   }
+
+   &-box {
+      //.section2-box/
+      @include flex-space-between();
+      width: 100%;
+      margin-bottom: 100px;
+      @include respond-to(md) {
+         display: flex;
+         align-items: center;
+         flex-wrap: wrap;
+         flex-direction: column;
+      }
+
+   }
+
+   &-img {
+      //.section2-img/
+      @include flex-space-between();
+      width: 50%;
+      margin-left: 20px;
+
+      .box__img {
+         display: none;
+      }
+   }
+
+}
+
+.hexagon-img {
+   display: block;
+   position: relative;
+   width: 70%;
+   z-index: 2;
+
+   &.is--back {
+      position: absolute;
+      z-index: 1;
+      width: 60%;
+      top: 50%;
+      transform: translateY(-50%);
+
+      &:first-child {
+         left: 0;
+      }
+
+      &:last-child {
+         right: 0;
+      }
+   }
+
+   &-wrap {
+      //.hexagon-img-wrap/
+      @include flex-center();
+      position: relative;
+      width: 50%;
+      margin-left: 20px;
+   }
+}
+
+.list {
+   &-wrap {
+      //.list-wrap/
+      display: block;
+      width: 50%;
+      font-size: 16px;
+      font-weight: 600;
+      min-width: 450px;
+      @include respond-to(md) {
+         @include flex-column();
+         padding: 0 40px;
+         margin-bottom: 20px;
+         text-align: center;
+         width: 100%;
+      }
+   }
+
+   &-box {
+      //.list-box/
+      display: flex;
+      align-items: center;
+      height: 40px;
+      width: 100%;
+      background-color: #F7F7F7;
+      border: #E7E7E7 solid 1px;
+
+      &:hover {
+         color: $red;
+         cursor: pointer;
+
+         &:active {
+             .list-circle {
+                border: solid 1px #FF0036;
+                cursor: pointer;
+                transition: .5s;
+
+                span {
+                   transition: .7s;
+                   background-color: #FF0036;
+
+                }
+
+                .none {
+                   transition: .7s;
+                   transform: rotate(0deg);
+
+                }
+             }
+          }
+
+      }
+
+      @include respond-to(md) {
+         max-width: 665px;
+      }
+   }
+
+   &__title {
+      //.list__title/
+      display: block;
+      margin-left: 30px;
+      font-size: 20px;
+      font-weight: bold;
+   }
+
+   &-text {
+      //.list-text/
+      display: none;
+      margin: 0;
+      width: 100%;
+      max-width: 570px;
+      @include respond-to(md) {
+         max-width: 665px;
+      }
+   }
+
+
+   &__p {
+      //.list__p/
+      max-width: 665px;
+      padding: 15px;
+      border: #E7E7E7 solid 1px;
+      line-height: 22px;
+      font-size: 14px;
+   }
+
+   &-block {
+      //.list-block/
+      @include flex-center();
+      height: 100%;
+      width: 10%;
+      border-right: #E7E7E7 solid 1px;
+   }
+
+   &-circle {
+      //.list-circle//
+      position: relative;
+      @include flex-center();
+      width: 18px;
+      height: 18px;
+      border: solid 1px #000000;
+      border-radius: 50%;
+
+
+      &__line {
+         //.list-circle__line//
+         position: absolute;
+         display: block;
+         width: 10px;
+         height: 2px;
+         background-color: #000000;
+
+      }
+
+      .none {
+         //.list-circle__line none//
+         transform: rotate(90deg);
+
+         &:hover {
+            display: none;
+         }
+      }
+   }
+
+
+   &-circle1 {
+      //.list-circle1//
+      position: relative;
+      @include flex-center();
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      border: solid 1px #FF0036;
+
+   }
+      &-circle__line1 {
+         //.list-circle__line1//
+         position: absolute;
+         display: block;
+         width: 10px;
+         height: 2px;
+         background-color: $red;
+
+      }
+
+   }
+
+.line1 {
+   @include flex-center();
+   &__item{
+      @include respond-to(xl){
+         width: 350px;
+      }
+   }
+}
+
+.card {
+   @include flex-center();
+   flex-wrap: wrap;
+   padding: 100px 0;
+   width: 100%;
+   @include respond-to(xl){
+      @include flex-center();
+   }
+
+   &-box {
+      //.card-box/
+      @include flex-column();
+      padding: 0 15px;
+      width: 25%;
+      @include respond-to(md){
+         width: 235px;
+         margin: 25px 40px;
+      }
+      @include respond-to(xl){
+         width: 235px;
+         margin: 25px 5px;
+      }
+
+      &__img {
+         //.card-box__img/
+         margin-bottom: 35px;
+         @include respond-to(xl){
+            width: 60px;}
+      }
+
+      &__title {
+         //.card-box__title/
+         text-transform: uppercase;
+         font-size: 20px;
+         font-weight: bold;
+         margin-bottom: 30px;
+         @include respond-to(xl){
+            font-size: 18px;
+         }
+      }
+
+      &__text {
+         font-size: 16px;
+         line-height: 20px;
+         text-align: center;
+         @include respond-to(xl){
+            font-size: 14px;
+         }
+      }
+
+   }
+
+}
+
+

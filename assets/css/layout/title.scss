@@ -1,0 +1,35 @@
+.title-wrap {
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   @include respond-to(lg) {
+      margin: 0 auto;
+      max-width: 760px;
+   }
+   @include respond-to(xl) {
+      margin: 0 auto;
+      max-width: 480px;
+   }
+
+   &__title {
+      font-size: 28px;
+      margin-bottom: 50px;
+      font-weight: bold;
+      text-align: center;
+      @include respond-to(lg) {
+        margin-bottom: 20px;
+      }
+   }
+
+   &__text {
+      font-size: 16px;
+      margin-bottom: 100px;
+      text-align: center;
+      line-height: 25px;
+      font-weight: 600;
+      @include respond-to(xl) {
+         font-size: 14px;
+         font-weight: 400;
+      }
+   }
+}

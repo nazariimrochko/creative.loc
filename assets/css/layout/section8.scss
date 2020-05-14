@@ -1,0 +1,188 @@
+.section8 {
+   height: 100%;
+   &-wrap {
+      //section8-wrap/
+      width: 100%;
+      height: 100%;
+      flex-wrap: wrap;
+      margin-bottom: 100px;
+      @include flex-space-between();
+   }
+}
+.box-card__hover{
+   width: 250px;
+   @include respond-to(xl){
+      width: 220px;
+   }
+}
+.box-card {
+   @include flex-column();
+   flex-basis: calc(25% - 50px);
+   margin: 15px 15px;
+   text-align: center;
+   @include respond-to(lg){
+      flex-basis: calc(50% - 50px);
+      margin: 15px 15px;
+      text-align: center;
+   }
+   &:hover{
+      .box-card__hover{
+      box-shadow: 0 2px 15px 1px darkgrey;
+      }
+      .box-card-text2{
+         background-color:$red;
+         color: #FFFFFF;
+         transition: .5s;
+      }
+      .box-card-text2__item{
+         color:#FFFFFF;
+         transition: 0.5s;
+      }
+   }
+
+
+   @include respond-to(md) {
+      flex-basis: calc(50% - 50px);
+      margin: 25px;
+   }
+   @include respond-to(xl) {
+      flex-basis: calc(50% - 30px);
+      margin: 20px 15px;
+   }
+   @include respond-to(xs) {
+      flex-basis: calc(100% - 20px);
+      margin: 20px 10px;
+   }
+   &__text1{
+      //box-card__text1/
+     @include flex-center();
+      width: 250px;
+      height: 48px;
+      background-color:$darkgrey;
+      font-size: 20px;
+      color: #FFFFFF;
+      text-transform:uppercase ;
+      @include respond-to(xl){
+         width: 220px;
+         height: 40px;
+         font-size: 18px;
+      }
+   }
+   &-text2{
+      //box-card__text2/
+      @include flex-center();
+      position: relative;
+      width: 250px;
+      height: 87px;
+      background-color:#F2F2F2;
+      font-weight: bold;
+      font-size: 30px;
+      color: $darkgrey;
+      @include respond-to(xl){
+         width: 220px;
+         height: 80px;
+         font-size: 26px;
+      }
+   }
+   &-text2__item{
+      //box-card__text2__item/
+      position: absolute;
+      top: 50px;
+      right: 70px;
+      font-size: 12px;
+      color: $darkgrey;
+      font-weight: bold;
+      @include respond-to(xl){
+         top: 45px;
+         right: 50px;
+      }
+   }
+   &__text{
+      //box-card__text/
+      @include flex-center();
+      width: 250px;
+      height: 50px;
+      margin: 0;
+      border: solid 1px #F2F2F2 ;
+      font-size: 16px;
+      color: $darkgrey;
+      font-weight: bold;
+      @include respond-to(xl){
+         width: 220px;
+         height: 44px;
+         font-size: 14px;
+         font-weight:600;
+      }
+   }
+   &__button {
+      //box-card__button/
+      width: 250px;
+      height: 65px;
+      background-color: $darkgrey;
+      border: solid 1px #F2F2F2;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      box-shadow: inset 0 0 0 15px #FFFFFF;
+      @include respond-to(xl){
+         width: 220px;
+         height: 58px;
+         font-size: 18px;
+      }
+      &:hover{
+         background-color: $red;
+         box-shadow: inset 0 0 0 0 #FFFFFF;
+         transition: 0.5s;
+      }
+   }
+}
+.twitter{
+   @include flex-column();
+   background-color: #272727;
+   padding: 70px  15px 100px 15px;
+   position: relative;
+   &__icon{
+      width: 35px;
+      height: 35px;
+      fill: $red;
+      margin: 30px;
+   }
+   &__icon2{
+      position: absolute;
+      top: 150px;
+      left: 160px;
+      width: 175px;
+      height: 175px;
+      fill:$silver;
+      @include respond-to(md){
+         position: absolute;
+         top: 166px;
+         left: 80px;
+         width: 155px;
+         height: 155px;
+      }
+      @include respond-to(xl){
+         position: absolute;
+         top: 190px;
+         left: 50px;
+         width: 125px;
+         height: 125px;
+      }
+   }
+   &__text{
+      display: block;
+      max-width: 640px;
+      text-align: center;
+      font-size: 16px;
+      color: #FFFFFF;
+      line-height: 22px;
+      z-index: 10;
+      @include respond-to(xl){
+         max-width: 480px;
+         font-size: 14px;
+         line-height: 20px;
+      }
+   }
+
+
+}

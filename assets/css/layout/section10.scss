@@ -1,0 +1,105 @@
+.section10 {
+   @include flex-column();
+   padding: 100px 0;
+   background-color: #000000;
+   height: 380px;
+   width: 100%;
+
+   &-img {
+      background-image: url("../assets/img/section10/1.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      opacity: 0.2;
+      @include flex-column();
+      padding: 50px 0;
+   }
+
+   &-title {
+      font-size: 26px;
+      z-index: 22;
+      margin-bottom: 50px;
+   }
+
+   &-title__item {
+      color: #FFFFFF;
+      z-index: 10;
+   }
+
+
+   &-block {
+      @include flex-space-between();
+      width: 700px;
+      height: 250px;
+
+      &-card {
+         @include flex-column();
+         position: relative;
+
+         &:hover {
+            .hex10-svg {
+               fill: #FFFFFF;
+               z-index: 5;
+            }
+
+            .hex10,
+            .hex10:before,
+            .hex10:after {
+               transition: .8s ease-in-out;
+               background: $red;
+            }
+         }
+      }
+
+      &__text {
+         position: relative;
+         font-size: 20px;
+         color: #FFFFFF;
+      }
+   }
+}
+
+.hex10-svg {
+   position: absolute;
+   fill: $red;
+   transform: rotate(-90deg);
+   width: 28px;
+   top: 6px;
+   left: 18px;
+}
+
+.hex10 {
+   width: 72px;
+   height: 40px;
+   background: #FFFFFF;
+   top: 50%;
+   left: 50%;
+   transform: rotate(90deg);
+   margin-bottom: 30px;
+}
+
+.hex10:before,
+.hex10:after {
+   content: '';
+   width: 100%;
+   height: 100%;
+   background: #FFFFFF;
+   position: absolute;
+}
+
+.hex10:before {
+   transform: rotate(60deg);
+}
+
+.hex10:after {
+   transform: rotate(-60deg);
+
+}
+
+.hex10,
+.hex10:before,
+.hex10:after {
+   background: transparent;
+   border-left: 1px solid $red;
+   border-right: 1px solid $red;
+}

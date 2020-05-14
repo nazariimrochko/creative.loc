@@ -1,0 +1,113 @@
+.section5 {
+   padding: 100px 0;
+   height: 100%;
+   background-color: black;
+   color: #A2A2A2;
+
+   &-box {
+      //.section5-box/
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      height: 100%;
+   }
+}
+
+.box-card {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-right: 30px;
+   width: 50%;
+
+
+   &__title {
+      //box-card__title/
+      margin-bottom: 50px;
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      @include respond-to(xs){
+         font-size: 16px;
+      }
+   }
+
+   &__text8 {
+      //box-card__text/
+      margin-bottom: 50px;
+      text-align: center;
+      font-weight: bold;
+      color: #939393;
+      @include respond-to(xs){
+         font-size: 14px;
+      }
+   }
+
+   .person {
+     @include flex-column();
+
+
+      &__img {
+         margin-bottom: 20px;
+      }
+
+      &__text {
+         margin-bottom: 30px;
+         font-size: 18px;
+         font-weight: bold;
+         color: $red;
+         @include respond-to(xs){
+            font-size: 14px;
+         }
+      }
+
+      &-item {
+         @include flex-space-between();
+         width: 33px;
+      }
+
+      &__cube {
+         width: 8px;
+         height: 8px;
+         background-color: #ffffff;
+
+         &:hover {
+            background-color: $red;
+         }
+      }
+   }
+}
+
+.button {
+   @include flex-space-between();
+   flex-wrap: wrap;
+   width: 50%;
+
+   &-item {
+      //button-item/
+      @include flex-center();
+      background-color: #ffffff;
+      box-shadow: inset 0 3px 50px #505050;
+      margin: 0 15px 40px 0;
+      width: 270px;
+      height: 120px;
+      @include respond-to(md){
+         width: 210px;
+         height: 90px;
+      }
+
+      &:hover {
+         box-shadow: inset 0 5px 20px #505050;
+      }
+
+      &__img :hover {
+         width: 120%;
+      }
+   }
+}
+
+
+
+

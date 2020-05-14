@@ -1,0 +1,217 @@
+.section4 {
+   padding: 100px 0;
+   height: 100%;
+   @include respond-to(xl) {
+      padding: 30px 0;
+   }
+
+   &-box4 {
+      //.section4-box4/
+      @include flex-center();
+      padding: 0;
+      @include respond-to(lg) {
+         @include flex-space-between();
+         flex-wrap: wrap;
+      }
+      @include respond-to(md) {
+         @include flex-column();
+      }
+      @include respond-to(xl) {
+         @include flex-column();
+      }
+
+   }
+
+   &__img {
+      //.section4__img/
+      width: 475px;
+      @include respond-to(lg) {
+         width: 330px;
+      }
+      @include respond-to(xl) {
+         margin-bottom: 50px;
+
+      }
+   }
+
+   .card__btn {
+      @include flex-center();
+      top: -130px;
+      right: -150px;
+      position: relative;
+      border: none;
+      width: 170px;
+      height: 50px;
+      text-transform: uppercase;
+      background-color: #393939;
+      color: #ffffff;
+      font-size: 20px;
+      z-index: 10;
+
+
+      &:hover {
+         background-color: $red;
+         transition: .7s;
+         box-shadow: 0 0 9px 2px $red;
+      }
+
+      @include respond-to(lg) {
+         width: 140px;
+         height: 40px;
+         font-size: 16px;
+         top: -90px;
+         right: -100px;
+      }
+      @include respond-to(md) {
+         top: -90px;
+         right: -100px;
+      }
+      @include respond-to(xl) {
+         top: -140px;
+         right: -105px;
+      }
+   }
+
+   .block4 {
+      @include flex-column();
+      position: relative;
+      top: -100px;
+      @include respond-to(lg) {
+         margin-bottom: 50px;
+         top: 0;
+      }
+      @include respond-to(xl) {
+         margin-bottom: 50px;
+         top: 0;
+      }
+
+      &-text {
+         //.block4-text/
+         display: flex;
+         align-items: center;
+         justify-content: flex-end;
+         margin-bottom: 23px;
+         padding: 0;
+         background-color: #ffffff;
+         border: solid 1px #E7E7E7;
+         width: 370px;
+         height: 50px;
+         text-transform: uppercase;
+         font-weight: bold;
+         @include respond-to(lg) {
+            width: 300px;
+            height: 45px;
+            font-size: 14px;
+         }
+         @include respond-to(md) {
+            width: 280px;
+            height: 45px;
+            font-size: 14px;
+         }
+
+         &:hover {
+            background-color: $red;
+            color: #ffffff;
+
+            .hex4,
+            .hex4:before,
+            .hex4:after{
+               transition: .2s ease-in-out;
+               background: #FFFFFF;
+            }
+            .hex4-svg {
+               fill: #FF0036;
+            }
+
+         }
+      }
+
+      &__text2 {
+         //.block4__text2/
+         @include flex-center();
+         order: 2;
+         @include respond-to(md) {
+            font-size: 14px;
+         }
+      }
+
+      &-btn2 {
+         //.block4-btn2/
+         display: flex;
+         align-items: center;
+         justify-content: flex-start;
+         margin-bottom: 23px;
+         padding: 0;
+         background-color: #ffffff;
+         border: solid 1px #E7E7E7;
+         width: 370px;
+         height: 50px;
+         text-transform: uppercase;
+         font-weight: bold;
+         @include respond-to(lg) {
+            width: 300px;
+            height: 45px;
+            font-size: 14px;
+         }
+         @include respond-to(md) {
+            width: 280px;
+            height: 45px;
+         }
+
+         &:hover {
+            background-color: #FF0036;
+            color: #ffffff;
+
+            .hex4,
+            .hex4:before,
+            .hex4:after{
+               transition: .4s ease-in-out;
+               background: #FFFFFF;
+            }
+
+            .hex4-svg {
+               fill: #FF0036;
+            }
+         }
+      }
+   }
+}
+
+.hex4 {
+   margin: 0 18px;
+   width: 32px;
+   height: 18px;
+   background: #FFFFFF;
+   top: 50%;
+   left: 50%;
+   transform: rotate(90deg);
+}
+.hex4:before,
+.hex4:after{
+   content: '';
+   width: 100%;
+   height: 100%;
+   background: #FFFFFF;
+   position: absolute;
+}
+.hex4:before{
+   transform:rotate( 60deg );
+}
+.hex4:after{
+   transform:rotate( -60deg );
+
+}
+.hex4,
+.hex4:before,
+.hex4:after{
+   background: #E7E7E7;
+
+}
+
+.hex4-svg {
+   z-index: 10;
+   top: 2px;
+   left: 9px;
+   position: absolute;
+   transform: rotate(-90deg);
+}

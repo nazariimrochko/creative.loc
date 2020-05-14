@@ -1,0 +1,150 @@
+.section7 {
+   width: 100%;
+   height: 100%;
+   padding: 100px 0;
+   background-color: #272727;
+   color: #A2A2A2;
+
+   &-wrap {
+      //section7-wrap/
+      width: 100%;
+      height: 100%;
+      flex-wrap: wrap;
+      @include flex-space-between();
+   }
+}
+.hex {
+   margin: 0 20px;
+   width: 30px;
+   height: 52px;
+   background-color: #E7E7E7;
+   border-color: #E7E7E7;
+   position: relative;
+   display: inline-block;
+}
+.hex:before {
+   content: " ";
+   width: 0;
+   height: 0;
+   border-bottom: 15px solid;
+   border-color: inherit;
+   border-left: 26.2px solid transparent;
+   border-right: 26.2px solid transparent;
+   position: absolute;
+   top: 18.4px;
+   left: 11px;
+   transform: rotate(90deg);
+}
+.hex:after {
+   content: "";
+   width: 0;
+   position: absolute;
+   bottom: -7.5px;
+   border-top: 15px solid;
+   border-color: inherit;
+   border-left: 26.5px solid transparent;
+   border-right: 26px solid transparent;
+   top: -8px;
+   right: 37.5px;
+   transform: rotate(90deg);
+}
+
+.box {
+   display: flex;
+   flex-direction: column;
+   flex-basis: calc(50% - 20px);
+   @include respond-to(xl){
+      flex-basis: calc(100% - 20px);
+   }
+
+   &-top {
+      //box-top/
+      display: flex;
+      margin-bottom: 30px;
+   }
+
+   &__title {
+      //box__title
+      margin-left: 30px;
+      text-transform: uppercase;
+      font-size: 22px;
+      color: #FFFFFF;
+      @include respond-to(md){
+         margin-left: 25px;
+         font-size: 20px;
+      }
+   }
+
+   &__text {
+      //box__text/
+      background-color: #343434;
+      margin-bottom: 50px;
+      padding: 20px ;
+      width: 100%;
+      line-height: 22px;
+      @include respond-to(md){
+         margin-bottom: 30px;
+         padding: 15px ;
+         width: 100%;
+         font-size: 14px;
+         line-height: 20px;
+      }
+   }
+   &:hover{
+      //box:hover/
+      .box__text{
+         background-color: #3D2329;
+      }
+      .hex{
+         //hex:hover/
+         background-color: $red;
+      }
+      .hex:before{
+         content: " ";
+         width: 0;
+         height: 0;
+         border-bottom: 15px solid;
+         border-color: $red;
+         border-left: 26.2px solid transparent;
+         border-right: 26.2px solid transparent;
+         position: absolute;
+         top: 18.4px;
+         left: 11px;
+         transform: rotate(90deg);
+      }
+      .hex:after {
+         content: "";
+         width: 0;
+         position: absolute;
+         bottom: -7.5px;
+         border-top: 15px solid;
+         border-color:$red;
+         border-left: 26.5px solid transparent;
+         border-right: 26px solid transparent;
+         top: -8px;
+         right: 37.5px;
+         transform: rotate(90deg);
+      }
+      .hex-svg{
+         fill:#FFFFFF;
+      }
+   }
+}
+.hex-svg{
+   position: absolute;
+   top: 11px;
+   width: 30px;
+   height: 30px;
+   fill: #272727;
+}
+.line {
+   @include flex-center();
+   @include respond-to(xl){
+      margin-bottom: 30px;
+   }
+
+   &__item {
+      //line__item/
+      position: absolute;
+   }
+}

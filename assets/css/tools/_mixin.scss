@@ -1,0 +1,74 @@
+@mixin respond-to($media) {
+   // width < 1400px
+   @if $media == xxl {
+      @media only screen and (max-width: $xxl) {
+         @content;
+      }
+   }
+   // width < 1200px
+   @if $media == lg {
+      @media only screen and (max-width: $lg) {
+         @content;
+      }
+   }
+   // width < 992px
+   @if $media == md {
+      @media only screen and (max-width: $md) {
+         @content;
+      }
+   }
+
+   // width < 768px
+   @if $media == xl {
+      @media only screen and (max-width: $xl) {
+         @content;
+      }
+   }
+   // width < 575px
+   @if $media == xs {
+      @media only screen and (max-width: $xs) {
+         @content;
+      }
+   }
+
+}
+
+@mixin simple-icon($width, $height) {
+   display: block;
+   min-width: $width;
+   width: $width;
+   max-width: $width;
+   flex: 0 $width;
+   min-height: $height;
+   height: $height;
+   max-height: $height;
+}
+
+@mixin flex-center() {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+@mixin flex-space-between(){
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+}
+@mixin flex-column(){
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+@mixin linear-gradient(){
+margin-bottom: 25px;
+width: 175px;
+height: 175px;
+border-radius: 50%;
+}
+@mixin linear-gradient2(){
+   margin-bottom: 25px;
+   width: 135px;
+   height: 135px;
+   border-radius: 50%;
+}
+

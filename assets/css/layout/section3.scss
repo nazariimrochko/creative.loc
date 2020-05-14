@@ -1,0 +1,158 @@
+.section3 {
+   height: 100%;
+   background-color: #262626;
+   @include respond-to(xl) {
+      padding: 30px 0;
+   }
+
+   &-wrap {
+      //.section3-wrap/
+      @include flex-column();
+      margin: 0 auto;
+      padding: 100px 0;
+      height: 100%;
+   }
+
+   &__title {
+      //.section3-title/
+      font-size: 30px;
+      font-weight: bold;
+      color: #ffffff;
+      margin-bottom: 30px;
+   }
+
+   &-nav {
+      //.section3-nav/
+      @include flex-space-between();
+      width: 430px;
+      margin-bottom: 100px;
+      @include respond-to(xl) {
+         width: 350px;
+         font-size: 14px;
+      }
+
+      &__item {
+         //.section3-nav__item/
+         text-transform: uppercase;
+         text-decoration: none;
+         color: #959596;
+
+         &:hover {
+            color: $red;
+         }
+
+      }
+   }
+
+   &-box {
+      //section3-box/
+      @include flex-space-between();
+      flex-wrap: wrap;
+      width: 100%;
+      max-width: 1400px;
+      @include respond-to(xxl){
+         @include flex-column();
+      }
+   }
+   &-block{
+      display: flex;
+      justify-content: center;
+      flex-basis: 50%;
+      @include respond-to(xxl){
+        flex-basis: 100%;
+         height: 100%;
+
+      }
+   }
+}
+
+.section3-card{
+   @include flex-column();
+   position: relative;
+   &:hover{
+      .section3-card-img{
+         transition: .6s;
+         opacity: 0.1;
+      }
+      .section3-card-hover{
+         display: inherit;
+         z-index: 100;
+      }
+   }
+   @include respond-to(xxl){
+      width: 25%;
+   }
+
+
+   &-hover{
+      @include flex-column();
+      position: absolute;
+      display: none;
+      top: 130px;
+      width: 100%;
+      color: #FFFFFF;
+   }
+
+   &-hover__text1{
+      font-size: 84px;
+      cursor: pointer;
+      text-decoration: none;
+      color: #FFFFFF;
+   }
+
+   &-img-wrap{
+   background-color: $darkgrey;
+   }
+   &-img__item{
+      @include respond-to(xxl){
+      }
+
+   }
+}
+
+
+.img-wrap {
+   background-color: $darkgrey;
+   display: block;
+   position: relative;
+
+   &-hover {
+      position:absolute;
+      top: 80px;
+      display: none;
+   }
+
+   &__item:hover {
+      
+         transition: .3s ease-in-out;
+         opacity: 0.1;
+
+      .img-wrap__hover{
+         display: flex;
+         @include flex-column();
+         z-index: 100;
+         width: 100%;
+         height: 100%;
+      }
+      .img-wrap-hover__plus{
+         @include flex-center();
+         font-size: 24px;
+         color: #FFFFFF;
+      }
+      .img-wrap-hover__title{
+         font-size: 16px;
+         color: #FFFFFF;
+      }
+   }
+}
+
+.line {
+   @include flex-center();
+   @include respond-to(xl) {
+      margin-bottom: 30px;
+   }
+
+   &__item {
+      position: absolute;
+   }
+}

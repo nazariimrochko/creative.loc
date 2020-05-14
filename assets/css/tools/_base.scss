@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  @import "mixin";
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+  color:#505050;
+}
+.white{
+  color:#FFFFFF;
+}
