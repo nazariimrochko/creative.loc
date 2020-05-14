@@ -29,7 +29,7 @@
       font-weight: bold;
       text-transform: uppercase;
       color: #FFFFFF;
-      @include respond-to(xs){
+      @include respond-to(xs) {
          font-size: 16px;
       }
    }
@@ -40,13 +40,13 @@
       text-align: center;
       font-weight: bold;
       color: #939393;
-      @include respond-to(xs){
+      @include respond-to(xs) {
          font-size: 14px;
       }
    }
 
    .person {
-     @include flex-column();
+      @include flex-column();
 
 
       &__img {
@@ -58,7 +58,7 @@
          font-size: 18px;
          font-weight: bold;
          color: $red;
-         @include respond-to(xs){
+         @include respond-to(xs) {
             font-size: 14px;
          }
       }
@@ -93,17 +93,25 @@
       margin: 0 15px 40px 0;
       width: 270px;
       height: 120px;
-      @include respond-to(md){
+      @include respond-to(md) {
          width: 210px;
          height: 90px;
+      }
+      @include respond-to(xs) {
+         width: 130px;
+         height: 60px;
       }
 
       &:hover {
          box-shadow: inset 0 5px 20px #505050;
       }
+   }
 
-      &__img :hover {
-         width: 120%;
+   &-item__img{
+      width: 130px;
+
+      @include respond-to(xs) {
+         width: 95px;
       }
    }
 }

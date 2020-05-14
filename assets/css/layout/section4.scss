@@ -32,6 +32,10 @@
          margin-bottom: 50px;
 
       }
+      @include respond-to(sm) {
+         margin-bottom: 50px;
+         width: 300px;
+      }
    }
 
    .card__btn {
@@ -67,8 +71,12 @@
          right: -100px;
       }
       @include respond-to(xl) {
-         top: -140px;
-         right: -105px;
+         top: -125px;
+         right: -95px;
+      }
+      @include respond-to(sm) {
+         top: -120px;
+         right: -80px;
       }
    }
 

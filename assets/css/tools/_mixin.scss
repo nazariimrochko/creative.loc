@@ -30,6 +30,12 @@
          @content;
       }
    }
+   // width < 420px
+   @if $media == sm {
+      @media only screen and (max-width: $sm) {
+         @content;
+      }
+   }
 
 }
 

@@ -10,7 +10,7 @@
    }
 }
 .box-card__hover{
-   width: 230px;
+   width: 250px;
    @include respond-to(xl){
       width: 220px;
    }
@@ -25,22 +25,6 @@
       margin: 15px 15px;
       text-align: center;
    }
-   &:hover{
-      .box-card__hover{
-      box-shadow: 0 2px 15px 1px darkgrey;
-      }
-      .box-card-text2{
-         background-color:$red;
-         color: #FFFFFF;
-         transition: .5s;
-      }
-      .box-card-text2__item{
-         color:#FFFFFF;
-         transition: 0.5s;
-      }
-   }
-
-
    @include respond-to(md) {
       flex-basis: calc(50% - 50px);
       margin: 25px;
@@ -53,6 +37,21 @@
       flex-basis: calc(100% - 20px);
       margin: 20px 10px;
    }
+   &:hover{
+      .box-card__hover{
+         box-shadow: 0 2px 15px 1px darkgrey;
+      }
+      .box-card-text2{
+         background-color:$red;
+         color: #FFFFFF;
+         transition: .5s;
+      }
+      .box-card-text2__item{
+         color:#FFFFFF;
+         transition: 0.5s;
+      }
+   }
+
    &__text1{
       //box-card__text1/
      @include flex-center();

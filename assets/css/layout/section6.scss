@@ -6,38 +6,34 @@
 .block {
    @include flex-space-between();
    width: 100%;
-   margin-bottom: 100px;
+   height: 100%;
    flex-wrap: wrap;
+   margin-bottom: 100px;
 
    .card-box {
       @include flex-column();
-      flex-basis: calc(25% - 40px);
-      border: solid 1px #F1F1F1;
-      margin: 15px;
+      flex-basis: calc(25% - 30px);
       padding: 0;
-      height: 360px;
+      margin: 15px;
       position: relative;
-      @include respond-to(xl){
-        padding-bottom: 30px;
-      }
 
-      &-img {
-         //card-box__img/
-         background-color: #000000;
-         margin-bottom: 30px;
-         @include respond-to(md){
-            width: 222px;
-         }
+      @include respond-to(lg) {
+         flex-basis: calc(50% - 30px);
+         margin: 15px;
       }
-      &-img__item{
-         //card-box-img__item/
-         @include respond-to(md){
-            width: 222px;
-         }
+      @include respond-to(md) {
+         flex-basis: calc(50% - 30px);
+         margin: 15px;
       }
-
+      @include respond-to(xl) {
+         flex-basis: calc(50% - 30px);
+         margin: 20px 15px;
+      }
+      @include respond-to(xs) {
+         flex-basis: calc(100% - 20px);
+         margin: 20px 10px;
+      }
       &:hover {
-         border: solid 1px #262626;
 
          .card-box__title {
             color: $red;
@@ -55,22 +51,25 @@
             fill: #FF0036;
          }
       }
+      &__border{
+         @include flex-column();
+         flex-basis: calc(25% - 30px);
+         position: relative;
+         border: solid 1px #F1F1F1;
+      }
+      &-img {
+         //card-box__img/
+         background-color: #000000;
+         margin-bottom: 30px;
+         @include respond-to(md){
+            width: 222px;
+         }
+      }
+      &-img__item{
+         //card-box-img__item/
+         width: 100%;
+      }
 
-      @include respond-to(md) {
-         flex-basis: calc(50% - 30px);
-         margin: 15px;
-         max-width: 222px;
-      }
-      @include respond-to(xl) {
-         flex-basis: calc(50% - 30px);
-         margin: 20px 15px;
-         max-width: 222px;
-      }
-      @include respond-to(xs) {
-         flex-basis: calc(100% - 20px);
-         max-width: 222px;
-         margin: 20px 10px;
-      }
       &__title {
          //card-box__title/
          margin-bottom: 25px;
@@ -88,6 +87,7 @@
 
       &__subtitle {
          //card-box__subtitle/
+         margin-bottom: 30px;
          font-size: 16px;
          color: $silver;
          @include respond-to(md) {

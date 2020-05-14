@@ -30,6 +30,12 @@
       @include respond-to(xl) {
          font-size: 14px;
          font-weight: 400;
+         margin-bottom: 50px;
+      }
+      @include respond-to(xs) {
+         font-size: 13px;
+         margin-bottom: 20px;
+         line-height: 15px;
       }
    }
 }
