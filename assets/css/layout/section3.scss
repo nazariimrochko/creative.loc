@@ -30,6 +30,10 @@
          width: 350px;
          font-size: 14px;
       }
+      @include respond-to(sm){
+         font-size: 13px;
+         width: 300px;
+      }
 
       &__item {
          //.section3-nav__item/
@@ -85,6 +89,7 @@
 
 
    &-hover{
+      //section3-card-hover/
       @include flex-column();
       position: absolute;
       display: none;
@@ -94,16 +99,19 @@
    }
 
    &-hover__text1{
+      //section3-card-hover__text1/
       font-size: 84px;
       cursor: pointer;
       text-decoration: none;
       color: #FFFFFF;
    }
 
-   &-img-wrap{
+   &-img{
+      //section3-card-img/
    background-color: $darkgrey;
    }
    &-img__item{
+      //section3-card-img__item/
       @include respond-to(xxl){
       }
 
@@ -143,16 +151,5 @@
          font-size: 16px;
          color: #FFFFFF;
       }
-   }
-}
-
-.line {
-   @include flex-center();
-   @include respond-to(xl) {
-      margin-bottom: 30px;
-   }
-
-   &__item {
-      position: absolute;
    }
 }

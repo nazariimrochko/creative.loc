@@ -244,7 +244,7 @@
 
    }
 
-.line1 {
+.line {
    @include flex-center();
    &__item{
       @include respond-to(xl){

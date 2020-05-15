@@ -1,11 +1,22 @@
 .section11-box{
+   background-image: url("../assets/img/section11/map.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 100%;
    @include flex-column();
    position: relative;
-   &-img{
-      @include respond-to(xs){
-         width: 480px;
-      }
-   }
+   //&-img{
+   //   @include respond-to(xl) {
+   //      width: 768px;
+   //   }
+   //   @include respond-to(xs){
+   //      width: 480px;
+   //   }
+   //   @include respond-to(sm){
+   //      width: 310px;
+   //   }
+   //}
 }
 .form{
    display: flex;

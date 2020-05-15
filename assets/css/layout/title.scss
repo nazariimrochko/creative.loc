@@ -17,7 +17,7 @@
       font-weight: bold;
       text-align: center;
       @include respond-to(lg) {
-        margin-bottom: 20px;
+         margin-bottom: 20px;
       }
    }
 
@@ -36,6 +36,23 @@
          font-size: 13px;
          margin-bottom: 20px;
          line-height: 15px;
+      }
+   }
+}
+
+.line {
+  margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 50px;
+   &__item{
+      position: absolute;
+      @include respond-to(xl){
+         width: 350px;
+
+      }
+      @include respond-to(sm){
+         width: 310px;
+         height: 12px;
       }
    }
 }
