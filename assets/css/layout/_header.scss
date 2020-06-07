@@ -166,9 +166,13 @@ cursor: pointer;
       width: 100%;
       left: 0;
       top: 0;
-      @include respond-to(xs){
+      @include respond-to(lg){
          width: 70%;
          top: -15px;
+      }
+      @include respond-to(xs){
+         width: 50%;
+         top: -25px;
       }
    }
 
@@ -182,10 +186,15 @@ cursor: pointer;
       bottom: 5px;
       text-align: center;
       color: #ffffff;
+      @include respond-to(lg){
+           font-size: 20px;
+           left: -35px;
+           bottom: 15px;
+        }
       @include respond-to(xs){
-         font-size: 20px;
-         left: -35px;
-         bottom: 15px;
+         font-size: 16px;
+         left: -63px;
+         bottom: 20px;
       }
    }
 }

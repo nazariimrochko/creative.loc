@@ -1,14 +1,14 @@
 <section class="section7">
-    <div class="container">
-        <div class="title-wrap">
-            <p class="title-wrap__title">our<span class="red"> services</span></p>
-            <p class="title-wrap__text">Lorem ipsum dolor sit amet, consectetur<span
+   <div class="container">
+      <div class="title-wrap">
+         <p class="title-wrap__title">our<span class="red"> services</span></p>
+         <p class="title-wrap__text">Lorem ipsum dolor sit amet, consectetur<span
                     class="red">adipiscing elit.</span>
-                Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis. </p>
-        </div>
-        <div class="section7-wrap">
-            <div class="box">
-                <div class="box-top">
+            Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis. </p>
+      </div>
+      <div class="section7-wrap">
+         <div class="box">
+            <div class="box-top">
                   <span class="hex">
                      <svg class="hex-svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                           xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -33,16 +33,16 @@
                         </g>
                      </g>
                      </svg></span>
-                    <span class="box__title">dvelopment</span>
-                </div>
-                <div class="box__text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim
-                        luctus eu in urna Dapibus egestas in turpis and
-                        Praesent faucibus nisl sit amet nulla sollicitudin.</p>
-                </div>
+               <span class="box__title">dvelopment</span>
             </div>
-            <div class="box">
-                <div class="box-top">
+            <div class="box__text">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim
+                  luctus eu in urna Dapibus egestas in turpis and
+                  Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+            </div>
+         </div>
+         <div class="box">
+            <div class="box-top">
                   <span class="hex">
                      <svg class="hex-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                           xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -65,16 +65,16 @@
                         s2.303,0,5.053,0h72.838C230.195,55.198,232.267,57.197,232.049,59.641z"/>
                   </g>
                   </svg></span>
-                    <span class="box__title">html/css</span>
-                </div>
-                <div class="box__text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim
-                        luctus eu in urna Dapibus egestas in turpis and
-                        Praesent faucibus nisl sit amet nulla sollicitudin.</p>
-                </div>
+               <span class="box__title">html/css</span>
             </div>
-            <div class="box">
-                <div class="box-top">
+            <div class="box__text">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim
+                  luctus eu in urna Dapibus egestas in turpis and
+                  Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+            </div>
+         </div>
+         <div class="box">
+            <div class="box-top">
                   <span class="hex">
                      <svg class="hex-svg" id="Bold" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24"
                           width="512" xmlns="http://www.w3.org/2000/svg">
@@ -87,16 +87,16 @@
                        0 .89.513 1.64 1.06 2.531.411.716.891 1.64.891 2.976 0 .924-.353 1.993-.823 3.489l-1.075 3.595zm7.985-.122c.842
                         1.539 1.321 3.3 1.321 5.178 0 3.982-2.158 7.456-5.366 9.324l-.001-.001 3.295-9.528c.614-1.539.823-2.767.823-3.866
                          0-.396-.024-.764-.072-1.107z"/></svg></span>
-                    <span class="box__title">wordpress</span>
-                </div>
-                <div class="box__text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim
-                        luctus eu in urna Dapibus egestas in turpis and
-                        Praesent faucibus nisl sit amet nulla sollicitudin.</p>
-                </div>
+               <span class="box__title">wordpress</span>
             </div>
-            <div class="box">
-                <div class="box-top">
+            <div class="box__text">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim
+                  luctus eu in urna Dapibus egestas in turpis and
+                  Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+            </div>
+         </div>
+         <div class="box">
+            <div class="box-top">
                   <span class="hex">
                      <svg class="hex-svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                           xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -111,16 +111,16 @@
                      </g>
                   </g>
                   </svg></span>
-                    <span class="box__title">applications</span>
-                </div>
-                <div class="box__text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim
-                        luctus eu in urna Dapibus egestas in turpis and
-                        Praesent faucibus nisl sit amet nulla sollicitudin.</p>
-                </div>
+               <span class="box__title">applications</span>
             </div>
-            <div class="box">
-                <div class="box-top">
+            <div class="box__text">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim
+                  luctus eu in urna Dapibus egestas in turpis and
+                  Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+            </div>
+         </div>
+         <div class="box">
+            <div class="box-top">
                   <span class="hex">
                      <svg class="hex-svg" height="484pt" viewBox="-15 -15 484.00019 484" width="484pt"
                           xmlns="http://www.w3.org/2000/svg"><path d="m401.648438
@@ -134,16 +134,16 @@
                      24.351563-63.898437 0-88.289062zm-232.273438 353.148437-86.914062-86.910156 217.535156-217.535156 86.914062
                       86.910156zm-99.15625-63.808593 75.929688 75.925781-114.015626 37.960938zm347.664062-184.820313-13.238281 13.363282-86.917969-86.917969
                       13.367188-13.359375c14.621094-14.609375 38.320312-14.609375 52.945312 0l33.964844 33.964844c14.511719 14.6875 14.457032 38.332031-.121094 52.949218zm0 0"/></svg></span>
-                    <span class="box__title">ui/ux design</span>
-                </div>
-                <div class="box__text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim
-                        luctus eu in urna Dapibus egestas in turpis and
-                        Praesent faucibus nisl sit amet nulla sollicitudin.</p>
-                </div>
+               <span class="box__title">ui/ux design</span>
             </div>
-            <div class="box">
-                <div class="box-top">
+            <div class="box__text">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim
+                  luctus eu in urna Dapibus egestas in turpis and
+                  Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+            </div>
+         </div>
+         <div class="box">
+            <div class="box-top">
                   <span class="hex">
                      <svg class="hex-svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                           xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -160,17 +160,17 @@
                   </g>
                </g>
                </svg></span>
-                    <span class="box__title">responsive layout</span>
-                </div>
-                <div class="box__text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim
-                        luctus eu in urna Dapibus egestas in turpis and
-                        Praesent faucibus nisl sit amet nulla sollicitudin.</p>
-                </div>
+               <span class="box__title">responsive layout</span>
             </div>
-        </div>
-    </div>
+            <div class="box__text">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim
+                  luctus eu in urna Dapibus egestas in turpis and
+                  Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+            </div>
+         </div>
+      </div>
+   </div>
 </section>
 <div class="line">
-    <img class="line__item" src="assets/img/section3/portfolio%20scroll%20bar.png">
+   <img class="line__item" src="assets/img/section3/portfolio_scroll_bar.png">
 </div>

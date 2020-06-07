@@ -17,7 +17,7 @@ const SRC = {
   style: 'assets/css',
   js: 'assets/js',
   dist: 'dist',
-  template: 'index.html'
+  template: 'index.php'
 };
 
 // - - - - - - - - - - - - - - - - - - - - -

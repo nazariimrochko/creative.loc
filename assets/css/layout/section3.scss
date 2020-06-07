@@ -53,103 +53,130 @@
       @include flex-space-between();
       flex-wrap: wrap;
       width: 100%;
-      max-width: 1400px;
-      @include respond-to(xxl){
-         @include flex-column();
+      height: 100%;
+      max-width: 1450px;
+      @include respond-to(lg){
+        padding: 0 100px;
+      }
+      @include respond-to(xl){
+           padding: 40px;
+         @include flex-center();
+        }
+      @include respond-to(sm){
+         padding: 0;
       }
    }
    &-block{
       display: flex;
       justify-content: center;
       flex-basis: 50%;
-      @include respond-to(xxl){
-        flex-basis: 100%;
-         height: 100%;
+   }
+   &-card{
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+      overflow: hidden;
+      width:25%;
+      height: 350px;
+      @include respond-to(lg){
+         width: 50%;
+      }
+      @include  respond-to(xl){
+         width: 350px;
+         height: 350px;
+      }
 
+      &:hover{
+
+         .section3-card-hover{
+            opacity: 1 ;
+         }
       }
    }
-}
-
-.section3-card{
-   @include flex-column();
-   position: relative;
-   &:hover{
-      .section3-card-img{
-         transition: .6s;
-         opacity: 0.1;
-      }
-      .section3-card-hover{
-         display: inherit;
-         z-index: 100;
-      }
-   }
-   @include respond-to(xxl){
-      width: 25%;
-   }
-
-
-   &-hover{
-      //section3-card-hover/
-      @include flex-column();
+   &-card-hover{
       position: absolute;
-      display: none;
-      top: 130px;
       width: 100%;
-      color: #FFFFFF;
-   }
-
-   &-hover__text1{
-      //section3-card-hover__text1/
-      font-size: 84px;
-      cursor: pointer;
-      text-decoration: none;
-      color: #FFFFFF;
-   }
-
-   &-img{
-      //section3-card-img/
-   background-color: $darkgrey;
-   }
-   &-img__item{
-      //section3-card-img__item/
-      @include respond-to(xxl){
+      height: 100%;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      background-color: rgba(0,0,0,.6);
+      &__plus{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50% -50%);
+         font-size: 84px;
+         cursor: pointer;
+         color: #FFFFFF;
       }
-
-   }
-}
-
-
-.img-wrap {
-   background-color: $darkgrey;
-   display: block;
-   position: relative;
-
-   &-hover {
-      position:absolute;
-      top: 80px;
-      display: none;
-   }
-
-   &__item:hover {
-      
-         transition: .3s ease-in-out;
-         opacity: 0.1;
-
-      .img-wrap__hover{
-         display: flex;
-         @include flex-column();
-         z-index: 100;
-         width: 100%;
-         height: 100%;
-      }
-      .img-wrap-hover__plus{
-         @include flex-center();
+      &__text{
+         position: absolute;
+         top: 40%;
+         left: 35%;
+         transform: translate(-50% -50%);
          font-size: 24px;
          color: #FFFFFF;
       }
-      .img-wrap-hover__title{
-         font-size: 16px;
-         color: #FFFFFF;
-      }
    }
+}
+.is-1{
+   background-image: url("../assets/img/section3/1.jpg");
+
+}
+.is-2{
+   background-image: url("../assets/img/section3/2.jpg");
+}
+.is-3{
+   background-image: url("../assets/img/section3/3.jpg");
+}
+.is-4{
+   background-image: url("../assets/img/section3/4.jpg");
+}
+.is-5{
+   background-image: url("../assets/img/section3/5.jpg");
+}
+.is-6{
+   background-image: url("../assets/img/section3/6.jpg");
+}
+.is-7{
+   background-image: url("../assets/img/section3/7.png");
+}
+.is-8{
+   background-image: url("../assets/img/section3/8.jpg");
+}
+.is-1,
+.is-3,
+.is-6,
+.is-8{
+   background-size: cover;
+   width: 30%;
+   @include respond-to(lg){
+      width: 60%;
+   }
+   @include  respond-to(xl){
+      width: 350px;
+      height: 350px;
+   }
+
+}
+.is-2,
+.is-4,
+.is-5,
+.is-7{
+   background-size: cover;
+   width: 20%;
+   @include respond-to(lg){
+      width: 40%;
+   }
+   @include  respond-to(xl){
+      width: 350px;
+      height: 350px;
+
+   }
+
+}
+.plusik{
+   text-decoration: none;
+   color: #FFFFFF;
 }

@@ -1,16 +1,17 @@
 <section class="section6" id="team">
-    <div class="container">
-        <div class="section6-wrap">
-            <div class="title-wrap">
-                <p class="title-wrap__title">our<span class="red"> teamwork</span></p>
-                <p class="title-wrap__text">Lorem ipsum dolor sit amet, consectetur<span
-                        class="red">adipiscing elit.</span>
-                    Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis. </p>
-            </div>
-            <div class="block">
-                <div class="card-box">
-                    <div class="hover-wrap">
-                     <span class="hex">
+   <div class="container">
+      <div class="title-wrap">
+         <p class="title-wrap__title">our<span class="red"> teamwork</span></p>
+         <p class="title-wrap__text">Lorem ipsum dolor sit amet, consectetur<span
+                    class="red">adipiscing elit.</span>
+            Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis. </p>
+      </div>
+      <div class="block">
+         <div class="card-box">
+            <div class="card-box__border">
+               <div class="hover-wrap">
+                     <span class="hex6">
+                        <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
                         <svg class="hex-svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                              y="0px"
@@ -21,14 +22,14 @@
                            </g>
                         </g>
                         </svg></span>
-                        <span class="hex">
-                        <svg class="hex-svg" viewBox="0 -91 512 512" xmlns="http://www.w3.org/2000/svg"><path
-                                d="m166 60c34.667969 0 66.027344 17.789062 84
+                  <span class="hex6">
+                        <svg class="hex6-svg" viewBox="0 -91 512 512" xmlns="http://www.w3.org/2000/svg"><path
+                                   d="m166 60c34.667969 0 66.027344 17.789062 84
                            42.300781l42.597656-42.902343c-25.476562-33.128907-74.511718-59.398438-126.597656-59.398438-91.199219 0-166 73.800781-166 165s74.800781
                             165 166 165c75.601562 0 139.199219-50.699219 158.699219-120 4.199219-14.402344 6.300781-29.402344 6.300781-45v-15h-150v59.988281h79.5c-16.5
                              35.402344-52.800781 60.011719-94.5 60.011719-57.898438 0-106-47.101562-106-105s48.101562-105 106-105zm0 0"/>
                            <path d="m466 90h-60v45h-45v60h45v45h60v-45h46v-60h-46zm0 0"/></svg></span>
-                        <span class="hex">
+                  <span class="hex6">
                         <svg class="hex-svg" viewBox="0 -47 512.00203 512"
                              xmlns="http://www.w3.org/2000/svg"><path d="m191.011719 419.042969c-22.140625
                         0-44.929688-1.792969-67.855469-5.386719-40.378906-6.335938-81.253906-27.457031-92.820312-33.78125l-30.335938-16.585938
@@ -42,35 +43,37 @@
                             25.230468c-1.058594 1.445313-1.328125 1.855469-1.703125 2.421875-1.488282 2.242188-3.339844 5.03125-28.679688 38.867188-6.34375
                             8.472656-9.511718 19.507812-8.921875 31.078125 2.246094 43.96875-3.148437 83.75-16.042969 118.234375-12.195312 32.625-31.09375
                              60.617187-56.164062 83.199219-31.023438 27.9375-70.582031 47.066406-117.582031 56.847656-23.054688 4.796875-47.8125 7.203125-73.4375 7.203125zm0 0"/></svg></span>
-                    </div>
-                    <div class="card-box-img"><img class="card-box-img__item" src="assets/img/section6/1.jpg"></div>
-                    <span class="card-box__title">bruce wayne</span>
-                    <span class="card-box__subtitle">Webdesigner</span>
-                </div>
-                <div class="card-box">
-                    <div class="hover-wrap">
-                     <span class="hex">
-                        <svg class="hex-svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+               </div>
+               <div class="card-box-img"><img class="card-box-img__item" src="assets/img/section6/1.jpg"></div>
+               <span class="card-box__title">bruce wayne</span>
+               <span class="card-box__subtitle">Webdesigner</span>
+            </div>
+         </div>
+         <div class="card-box">
+            <div class="card-box__border">
+               <div class="hover-wrap">
+                     <span class="hex6">
+                        <svg class="hex6-svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                              y="0px"
                              viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
                              xml:space="preserve">
-                                                <g>
-	                                                <g>
-		                                             <path d="M288,176v-64c0-17.664,14.336-32,32-32h32V0h-64c-53.024,0-96,42.976-96,96v80h-64v80h64v256h96V256h64l32-80H288z"/>
-	                                          </g>
-                           </g>
+                           <g>
+	                              <g>
+		                                          <path d="M288,176v-64c0-17.664,14.336-32,32-32h32V0h-64c-53.024,0-96,42.976-96,96v80h-64v80h64v256h96V256h64l32-80H288z"/>
+	                              </g>
+                     </g>
                      </svg></span>
-                        <span class="hex">
-                        <svg class="hex-svg" viewBox="0 -91 512 512"
+                  <span class="hex6">
+                        <svg class="hex6-svg" viewBox="0 -91 512 512"
                              xmlns="http://www.w3.org/2000/svg"><path
-                                d="m166 60c34.667969 0 66.027344 17.789062 84
+                                   d="m166 60c34.667969 0 66.027344 17.789062 84
                      42.300781l42.597656-42.902343c-25.476562-33.128907-74.511718-59.398438-126.597656-59.398438-91.199219 0-166 73.800781-166 165s74.800781
                       165 166 165c75.601562 0 139.199219-50.699219 158.699219-120 4.199219-14.402344 6.300781-29.402344 6.300781-45v-15h-150v59.988281h79.5c-16.5
                        35.402344-52.800781 60.011719-94.5 60.011719-57.898438 0-106-47.101562-106-105s48.101562-105 106-105zm0 0"/>
                          <path d="m466 90h-60v45h-45v60h45v45h60v-45h46v-60h-46zm0 0"/></svg></span>
-                        <span class="hex">
-                        <svg class="hex-svg" viewBox="0 -47 512.00203 512"
+                  <span class="hex6">
+                        <svg class="hex6-svg" viewBox="0 -47 512.00203 512"
                              xmlns="http://www.w3.org/2000/svg"><path d="m191.011719 419.042969c-22.140625
                         0-44.929688-1.792969-67.855469-5.386719-40.378906-6.335938-81.253906-27.457031-92.820312-33.78125l-30.335938-16.585938
                          32.84375-10.800781c35.902344-11.804687 57.742188-19.128906 84.777344-30.597656-27.070313-13.109375-47.933594-36.691406-57.976563-67.175781l-7.640625-23.195313
@@ -83,15 +86,18 @@
                             25.230468c-1.058594 1.445313-1.328125 1.855469-1.703125 2.421875-1.488282 2.242188-3.339844 5.03125-28.679688 38.867188-6.34375
                             8.472656-9.511718 19.507812-8.921875 31.078125 2.246094 43.96875-3.148437 83.75-16.042969 118.234375-12.195312 32.625-31.09375
                              60.617187-56.164062 83.199219-31.023438 27.9375-70.582031 47.066406-117.582031 56.847656-23.054688 4.796875-47.8125 7.203125-73.4375 7.203125zm0 0"/></svg></span>
-                    </div>
-                    <div class="card-box-img"><img class="card-box-img__item" src="assets/img/section6/2.jpg"></div>
-                    <span class="card-box__title">amr srour</span>
-                    <span class="card-box__subtitle">Webdesigner</span>
-                </div>
-                <div class="card-box">
-                    <div class="hover-wrap">
-                     <span class="hex">
-                           <svg class="hex-svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+               </div>
+               <div class="card-box-img"><img class="card-box-img__item" src="assets/img/section6/2.jpg"></div>
+               <span class="card-box__title">amr srour</span>
+               <span class="card-box__subtitle">Webdesigner</span>
+            </div>
+         </div>
+         <div class="card-box">
+            <div class="card-box__border">
+               <div class="hover-wrap">
+                     <span class="hex6">
+                        <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                           <svg class="hex6-svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                                 y="0px"
                                 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -101,15 +107,15 @@
                               </g>
                            </g>
                            </svg></span>
-                        <span class="hex">
-                        <svg class="hex-svg" viewBox="0 -91 512 512" xmlns="http://www.w3.org/2000/svg"><path
-                                d="m166 60c34.667969 0 66.027344 17.789062 84
+                  <span class="hex6">
+                        <svg class="hex6-svg" viewBox="0 -91 512 512" xmlns="http://www.w3.org/2000/svg"><path
+                                   d="m166 60c34.667969 0 66.027344 17.789062 84
                               42.300781l42.597656-42.902343c-25.476562-33.128907-74.511718-59.398438-126.597656-59.398438-91.199219 0-166 73.800781-166 165s74.800781
                                165 166 165c75.601562 0 139.199219-50.699219 158.699219-120 4.199219-14.402344 6.300781-29.402344 6.300781-45v-15h-150v59.988281h79.5c-16.5
                                 35.402344-52.800781 60.011719-94.5 60.011719-57.898438 0-106-47.101562-106-105s48.101562-105 106-105zm0 0"/>
                                   <path d="m466 90h-60v45h-45v60h45v45h60v-45h46v-60h-46zm0 0"/></svg></span>
-                        <span class="hex">
-                        <svg class="hex-svg" viewBox="0 -47 512.00203 512"
+                  <span class="hex6">
+                        <svg class="hex6-svg" viewBox="0 -47 512.00203 512"
                              xmlns="http://www.w3.org/2000/svg"><path d="m191.011719 419.042969c-22.140625
                      0-44.929688-1.792969-67.855469-5.386719-40.378906-6.335938-81.253906-27.457031-92.820312-33.78125l-30.335938-16.585938
                       32.84375-10.800781c35.902344-11.804687 57.742188-19.128906 84.777344-30.597656-27.070313-13.109375-47.933594-36.691406-57.976563-67.175781l-7.640625-23.195313
@@ -122,15 +128,18 @@
                          25.230468c-1.058594 1.445313-1.328125 1.855469-1.703125 2.421875-1.488282 2.242188-3.339844 5.03125-28.679688 38.867188-6.34375
                          8.472656-9.511718 19.507812-8.921875 31.078125 2.246094 43.96875-3.148437 83.75-16.042969 118.234375-12.195312 32.625-31.09375
                           60.617187-56.164062 83.199219-31.023438 27.9375-70.582031 47.066406-117.582031 56.847656-23.054688 4.796875-47.8125 7.203125-73.4375 7.203125zm0 0"/></svg></span>
-                    </div>
-                    <div class="card-box-img"><img class="card-box-img__item" src="assets/img/section6/3.jpg"></div>
-                    <span class="card-box__title">sara doe</span>
-                    <span class="card-box__subtitle">Webdesigner</span>
-                </div>
-                <div class="card-box">
-                    <div class="hover-wrap">
-                     <span class="hex">
-                     <svg class="hex-svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+               </div>
+               <div class="card-box-img"><img class="card-box-img__item" src="assets/img/section6/3.jpg"></div>
+               <span class="card-box__title">sara doe</span>
+               <span class="card-box__subtitle">Webdesigner</span>
+            </div>
+         </div>
+         <div class="card-box">
+            <div class="card-box__border">
+               <div class="hover-wrap">
+                     <span class="hex6">
+                        <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                     <svg class="hex6-svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                           xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                           y="0px"
                           viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -140,15 +149,15 @@
                         </g>
                      </g>
                      </svg></span>
-                        <span class="hex">
-                        <svg class="hex-svg" viewBox="0 -91 512 512" xmlns="http://www.w3.org/2000/svg"><path
-                                d="m166 60c34.667969 0 66.027344 17.789062 84
+                  <span class="hex6">
+                        <svg class="hex6-svg" viewBox="0 -91 512 512" xmlns="http://www.w3.org/2000/svg"><path
+                                   d="m166 60c34.667969 0 66.027344 17.789062 84
                      42.300781l42.597656-42.902343c-25.476562-33.128907-74.511718-59.398438-126.597656-59.398438-91.199219 0-166 73.800781-166 165s74.800781
                       165 166 165c75.601562 0 139.199219-50.699219 158.699219-120 4.199219-14.402344 6.300781-29.402344 6.300781-45v-15h-150v59.988281h79.5c-16.5
                        35.402344-52.800781 60.011719-94.5 60.011719-57.898438 0-106-47.101562-106-105s48.101562-105 106-105zm0 0"/>
                          <path d="m466 90h-60v45h-45v60h45v45h60v-45h46v-60h-46zm0 0"/></svg></span>
-                        <span class="hex">
-                        <svg class="hex-svg" viewBox="0 -47 512.00203 512"
+                  <span class="hex6">
+                        <svg class="hex6-svg" viewBox="0 -47 512.00203 512"
                              xmlns="http://www.w3.org/2000/svg"><path d="m191.011719 419.042969c-22.140625
                         0-44.929688-1.792969-67.855469-5.386719-40.378906-6.335938-81.253906-27.457031-92.820312-33.78125l-30.335938-16.585938
                          32.84375-10.800781c35.902344-11.804687 57.742188-19.128906 84.777344-30.597656-27.070313-13.109375-47.933594-36.691406-57.976563-67.175781l-7.640625-23.195313
@@ -161,59 +170,61 @@
                             25.230468c-1.058594 1.445313-1.328125 1.855469-1.703125 2.421875-1.488282 2.242188-3.339844 5.03125-28.679688 38.867188-6.34375
                             8.472656-9.511718 19.507812-8.921875 31.078125 2.246094 43.96875-3.148437 83.75-16.042969 118.234375-12.195312 32.625-31.09375
                              60.617187-56.164062 83.199219-31.023438 27.9375-70.582031 47.066406-117.582031 56.847656-23.054688 4.796875-47.8125 7.203125-73.4375 7.203125zm0 0"/></svg></span>
-                    </div>
-                    <div class="card-box-img"><img class="card-box-img__item" src="assets/img/section6/4.jpg"></div>
-                    <span class="card-box__title">johan de</span>
-                    <span class="card-box__subtitle">Webdesigner</span>
-                </div>
+               </div>
+               <div class="card-box-img"><img class="card-box-img__item" src="assets/img/section6/4.jpg"></div>
+               <span class="card-box__title">johan de</span>
+               <span class="card-box__subtitle">Webdesigner</span>
             </div>
-            <div class="line">
-                <img class="line__item" src="assets/img/section2/scroll%20bar.png">
-            </div>
-        </div>
-        <div class="title-wrap">
-            <p class="title-wrap__title">our<span class="red">scills</span></p>
-            <p class="title-wrap__text">Lorem ipsum dolor sit amet, consectetur<span
+         </div>
+      </div>
+      <div class="line">
+         <img class="line__item" src="assets/img/section2/scroll%20bar.png">
+      </div>
+   </div>
+   <div class="container">
+      <div class="title-wrap">
+         <p class="title-wrap__title">our<span class="red">scills</span></p>
+         <p class="title-wrap__text">Lorem ipsum dolor sit amet, consectetur<span
                     class="red">adipiscing elit.</span>
-                Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis. </p>
-        </div>
-        <div class="skills">
-            <div class="skills-card">
-                <div class="skills-bg90">
-                    <div class="skills-circle">
-                        <span class="skills__numer"><span class="red">90</span>%</span>
-                    </div>
-                </div>
-                <span class="skills__title">photoshop</span>
-                <span class="skills__text">Donec luctus tortor in placerat faucibus</span>
+            Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis. </p>
+      </div>
+      <div class="skills">
+         <div class="skills-card">
+            <div class="skills-bg90">
+               <div class="skills-circle">
+                  <span class="skills__numer"><span class="red">90</span>%</span>
+               </div>
             </div>
-            <div class="skills-card">
-                <div class="skills-bg80">
-                    <div class="skills-circle">
-                        <span class="skills__numer"><span class="red">80</span>%</span>
-                    </div>
-                </div>
-                <span class="skills__title">html</span>
-                <span class="skills__text">Donec luctus tortor in placerat faucibus</span>
+            <span class="skills__title">photoshop</span>
+            <span class="skills__text">Donec luctus tortor in placerat faucibus</span>
+         </div>
+         <div class="skills-card">
+            <div class="skills-bg80">
+               <div class="skills-circle">
+                  <span class="skills__numer"><span class="red">80</span>%</span>
+               </div>
             </div>
-            <div class="skills-card">
-                <div class="skills-bg70">
-                    <div class="skills-circle">
-                        <span class="skills__numer"><span class="red">70</span>%</span>
-                    </div>
-                </div>
-                <span class="skills__title">php</span>
-                <span class="skills__text">Donec luctus tortor in placerat faucibus</span>
+            <span class="skills__title">html</span>
+            <span class="skills__text">Donec luctus tortor in placerat faucibus</span>
+         </div>
+         <div class="skills-card">
+            <div class="skills-bg70">
+               <div class="skills-circle">
+                  <span class="skills__numer"><span class="red">70</span>%</span>
+               </div>
             </div>
-            <div class="skills-card">
-                <div class="skills-bg90">
-                    <div class="skills-circle">
-                        <span class="skills__numer"><span class="red">90</span>%</span>
-                    </div>
-                </div>
-                <span class="skills__title">wordpress</span>
-                <span class="skills__text">Donec luctus tortor in placerat faucibus</span>
+            <span class="skills__title">php</span>
+            <span class="skills__text">Donec luctus tortor in placerat faucibus</span>
+         </div>
+         <div class="skills-card">
+            <div class="skills-bg90">
+               <div class="skills-circle">
+                  <span class="skills__numer"><span class="red">90</span>%</span>
+               </div>
             </div>
-        </div>
-    </div>
+            <span class="skills__title">wordpress</span>
+            <span class="skills__text">Donec luctus tortor in placerat faucibus</span>
+         </div>
+      </div>
+   </div>
 </section>

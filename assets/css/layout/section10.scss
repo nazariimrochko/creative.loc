@@ -29,8 +29,9 @@
 
 
     &-block {
-       @include flex-space-between();
-       padding: 20px;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
        width: 700px;
        height: 250px;
        @include respond-to(md){

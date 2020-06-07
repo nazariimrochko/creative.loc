@@ -1,24 +1,25 @@
 <section class="section10" >
-    <div class="section10-title">
-        <p class="section10-title__item">Follow<span class="red"> Creativia</span></p>
-    </div>
-    <div class="section10-block">
-        <div class="section10-block-card">
+   <div class="section10-color">
+      <div class="section10-title">
+         <p class="section10-title__item">Follow<span class="red"> Creativia</span></p>
+      </div>
+      <div class="section10-block">
+         <div class="section10-block-card">
             <span class="hex10">
                         <svg class="hex10-svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                              y="0px"
                              viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
                              xml:space="preserve">
-<g>
-	<g>
-		<path d="M288,176v-64c0-17.664,14.336-32,32-32h32V0h-64c-53.024,0-96,42.976-96,96v80h-64v80h64v256h96V256h64l32-80H288z"/>
-	</g>
-</g>
+                           <g>
+	                           <g>
+		                           <path d="M288,176v-64c0-17.664,14.336-32,32-32h32V0h-64c-53.024,0-96,42.976-96,96v80h-64v80h64v256h96V256h64l32-80H288z"/>
+	                           </g>
+                           </g>
                      </svg></span>
             <span class="section10-block__text">20000</span>
-        </div>
-        <div class="section10-block-card">
+         </div>
+         <div class="section10-block-card">
             <span class="hex10"> <svg class="hex10-svg" viewBox="0 -47 512.00203 512"
                                       xmlns="http://www.w3.org/2000/svg"><path d="m191.011719 419.042969c-22.140625
                         0-44.929688-1.792969-67.855469-5.386719-40.378906-6.335938-81.253906-27.457031-92.820312-33.78125l-30.335938-16.585938
@@ -33,8 +34,8 @@
                             8.472656-9.511718 19.507812-8.921875 31.078125 2.246094 43.96875-3.148437 83.75-16.042969 118.234375-12.195312 32.625-31.09375
                              60.617187-56.164062 83.199219-31.023438 27.9375-70.582031 47.066406-117.582031 56.847656-23.054688 4.796875-47.8125 7.203125-73.4375 7.203125zm0 0"/></svg></span>
             <span class="section10-block__text">99900</span>
-        </div>
-        <div class="section10-block-card">
+         </div>
+         <div class="section10-block-card">
             <span class="hex10">
                <svg class="hex10-svg" viewBox="-62 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m60.945312 278.21875c.640626-1.597656
                7.050782-26.230469 7.5-27.898438-10.007812-15.058593-21.125-64.371093-12.597656-104.398437 9.199219-58.730469 71.4375-87.601563
@@ -47,20 +48,21 @@
                     160.4375-74.65625 158.019531-178.5625-2.121094-91.121094-68.808594-166.875-188.632812-166.875v.117188c-113.976563
                     0-180.5 60.835937-196.785157 137.703124-14.914062 71.273438 18.253907 125.519532 57.300781 140.398438zm0 0"/></svg></span>
             <span class="section10-block__text">5000</span>
-        </div>
-        <div class="section10-block-card">
+         </div>
+         <div class="section10-block-card">
             <span class="hex10"><svg class="hex10-svg" viewBox="0 -91 512 512"
                                      xmlns="http://www.w3.org/2000/svg"><path
-                        d="m166 60c34.667969 0 66.027344 17.789062 84
+                          d="m166 60c34.667969 0 66.027344 17.789062 84
                      42.300781l42.597656-42.902343c-25.476562-33.128907-74.511718-59.398438-126.597656-59.398438-91.199219 0-166 73.800781-166 165s74.800781
                       165 166 165c75.601562 0 139.199219-50.699219 158.699219-120 4.199219-14.402344 6.300781-29.402344 6.300781-45v-15h-150v59.988281h79.5c-16.5
                        35.402344-52.800781 60.011719-94.5 60.011719-57.898438 0-106-47.101562-106-105s48.101562-105 106-105zm0 0"/>
                          <path d="m466 90h-60v45h-45v60h45v45h60v-45h46v-60h-46zm0 0"/></svg></span>
             <span class="section10-block__text">200</span>
-        </div>
-    </div>
-    <div class="section10-img"></div>
+         </div>
+      </div>
+   </div>
 </section>
 <div class="line">
-    <img class="line__item" src="assets/img/section3/portfolio%20scroll%20bar.png">
+   <img class="line__item" src="assets/img/section3/portfolio_scroll_bar.png">
 </div>
+</main>

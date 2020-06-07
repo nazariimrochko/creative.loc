@@ -1,48 +1,32 @@
 .section11-box{
-   background-image: url("../assets/img/section11/map.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
    width: 100%;
    height: 100%;
    @include flex-column();
    position: relative;
-   //&-img{
-   //   @include respond-to(xl) {
-   //      width: 768px;
-   //   }
-   //   @include respond-to(xs){
-   //      width: 480px;
-   //   }
-   //   @include respond-to(sm){
-   //      width: 310px;
-   //   }
-   //}
+
 }
 .form{
    display: flex;
    flex-direction: column;
    position: absolute;
    bottom: 0;
-   left: 380px;
+   left: 65%;
    padding: 45px;
    width: 470px;
    height: 470px;
    background-color: #FFFFFF;
    box-shadow: 0 0  20px 1px  $darkgrey;
-   @include respond-to(md){
+   @include respond-to(lg){
       width: 370px;
       height: 370px;
       padding: 30px;
-      left: 240px;
    }
-   @include respond-to(xs){
-      left: 150px;
+   @include respond-to(md){
       width: 300px;
       height: 300px;
       padding: 20px;
    }
    @include respond-to(sm){
-      left: 20px;
       width: 280px;
       height: 200px;
       padding: 10px;
@@ -54,7 +38,7 @@
       font-weight: bold;
       margin-bottom: 50px;
       text-transform: uppercase;
-      @include respond-to(xs){
+      @include respond-to(md){
         font-size: 20px;
          margin-bottom: 25px;
       }
@@ -69,10 +53,10 @@
       margin-bottom: 20px;
       color: #000000;
       text-indent: 15px;
-      @include respond-to(md){
+      @include respond-to(lg){
          width: 260px;
       }
-      @include respond-to(xs){
+      @include respond-to(md){
          width: 240px;
          margin-bottom: 15px;
       }
@@ -90,10 +74,10 @@
       margin-bottom: 30px;
       color: #000000;
       text-indent: 15px;
-      @include respond-to(md){
+      @include respond-to(lg){
          width: 260px;
       }
-      @include respond-to(xs){
+      @include respond-to(md){
          width: 240px;
          margin-bottom: 20px;
 
