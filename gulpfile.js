@@ -20,7 +20,7 @@ const SRC = {
   template: 'index.php'
 };
 
-// - - - - - - - - - - - - - - - - - - - - -
+// - - - - - - - - - - - - - - - - - - - -
 // ToDo Build functions for project =>
 const build_style = async function () {
   await del([`${SRC.dist}/all*.css`]);
